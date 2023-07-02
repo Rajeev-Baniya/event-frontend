@@ -15,7 +15,7 @@ const useFetch = (url) => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const res = await http.get(url);
+        const res = await http.get(`api/${url}`);
         setData(res.data);
       } catch (err) {
         setError(err);
