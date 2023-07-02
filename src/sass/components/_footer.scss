@@ -1,0 +1,36 @@
+.footer {
+  padding: 3.2rem 6.4rem;
+  background-color: $color-primary;
+  h3 {
+    color: $color-white;
+    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+  }
+  a {
+    color: $color-white;
+    display: block;
+    opacity: 0.8;
+    transition: all 0.2s;
+    &:not(:last-child) {
+      margin-bottom: 1.8rem;
+    }
+  }
+  .footer-container {
+    & > div {
+      margin-bottom: 3.6rem;
+    }
+  }
+  .copyright {
+    text-align: center;
+    p {
+      color: $color-white;
+      font-size: 1.8rem;
+      font-family: "open sans" "sans-serif";
+    }
+    img {
+      height: 7.4rem;
+      width: 7.4rem;
+      margin-bottom: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.book {
+  .most-booked_each {
+    img {
+      height: 26rem;
+    }
+  }
+}
+
+table i {
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+table .delete i {
+  color: #ff6b6b;
+}
+
+table .edit i {
+  color: #339af0;
+}

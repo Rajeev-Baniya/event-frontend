@@ -1,0 +1,57 @@
+.search-item {
+  border: 1px solid orange;
+  border-radius: 3px;
+  padding: 1.4rem 1rem;
+  h3 {
+    font-size: 2.2rem;
+    color: $color-primary;
+    font-weight: 600;
+  }
+  img {
+    width: 100%;
+    height: 14rem;
+    border-radius: 3px;
+    object-fit: cover;
+    @include respond(992px) {
+      margin-bottom: 1.4rem;
+      height: 20rem;
+    }
+  }
+}
+
+.price {
+  font-size: 2rem;
+  color: orange;
+  font-weight: 500;
+}
+.type {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+.address {
+  // opacity: 0.7;
+  // font-size: 1.5rem;
+  font-weight: 500;
+  i {
+    margin-right: 0.2rem;
+  }
+}
+.description {
+  opacity: 0.8;
+}
+.availability {
+  color: white;
+  background-color: orange;
+  text-align: center;
+  padding: 0.7rem 1.2rem;
+  border-radius: 3px;
+  display: block;
+}
+
+.venue-img-display {
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin: 1rem auto;
+  border-radius: 50%;
+}

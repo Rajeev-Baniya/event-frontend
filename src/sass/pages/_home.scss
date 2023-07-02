@@ -1,0 +1,111 @@
+.home-carousel {
+  .carousel-item {
+    height: 90vh;
+  }
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    // filter: contrast(5%);
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .carousel-caption {
+    bottom: 3.25rem;
+    font-size: 1.8rem;
+    background-color: rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    border-radius: 3px;
+    h3 {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+.searchVenue {
+  label {
+    opacity: 0.8;
+
+    i {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.cityVenue {
+  a {
+    display: block;
+  }
+  .city-each {
+    height: 24rem;
+    width: 100%;
+    // background-image: url(../../assets/images/wed1.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(18, 26, 27, 0.2),
+        rgba(18, 26, 27, 0.2)
+      ),
+      url("../../assets/images/wed1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    transition: all 0.2s;
+    &_text {
+      color: $color-white;
+      font-size: 2.4rem;
+      font-weight: 500;
+    }
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
+
+.most-booked {
+  &_each {
+    border: 1px solid orange;
+    border-radius: 3px;
+
+    img {
+      height: 18rem;
+      object-fit: cover;
+      width: 100%;
+      overflow: hidden;
+    }
+    h3 {
+      font-size: 2.2rem;
+      color: $color-primary;
+      font-weight: 600;
+    }
+  }
+}
+
+.book-now {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(18, 26, 27, 0.3),
+      rgba(18, 26, 27, 0.3)
+    ),
+    url("../../assets/images/wed2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: $color-white;
+  &_details {
+    h3 {
+      margin-bottom: 1.2rem;
+      font-size: 2.6rem;
+      font-weight: 700;
+    }
+    .desc {
+      margin-bottom: 3.2rem;
+    }
+  }
+}
