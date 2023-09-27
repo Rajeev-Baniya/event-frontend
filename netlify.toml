@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://event-backend-yeg3.onrender.com/api/:splat"
+  host = "event-backend-yeg3.onrender.com"
+  status = 200
+  force = true

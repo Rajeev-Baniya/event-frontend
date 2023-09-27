@@ -5,7 +5,8 @@ const setJwt = (jwt) => {
   axios.defaults.headers.common["Authorization"] = `Bearer ${newJwt}`;
 };
 
-axios.defaults.baseURL = "https://event-backend-yeg3.onrender.com/api/";
+// axios.defaults.baseURL = "https://event-backend-yeg3.onrender.com/api/";
+axios.defaults.baseURL = "/api/";
 
 // "proxy": "https://event-backend-yeg3.onrender.com/api/"
 
